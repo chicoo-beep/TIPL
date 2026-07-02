@@ -1,0 +1,18 @@
+{
+  "name": "Tankaria Breakout",
+  "short_name": "Tankaria",
+  "description": "An Android-friendly Arkanoid style game with Tankaria branding.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#101412",
+  "theme_color": "#101412",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "tankaria-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
