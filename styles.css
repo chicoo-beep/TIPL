@@ -118,7 +118,7 @@ button {
 .stats {
   align-items: center;
   display: flex;
-  gap: 8px;
+  gap: 6px;
 }
 
 .stats span {
@@ -126,9 +126,9 @@ button {
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--muted);
-  font-size: 0.82rem;
-  min-width: 78px;
-  padding: 7px 9px;
+  font-size: 0.76rem;
+  min-width: 66px;
+  padding: 7px 7px;
   text-align: center;
 }
 
@@ -258,7 +258,7 @@ p {
 .controls {
   display: grid;
   gap: 10px;
-  grid-template-columns: 1fr 76px 1fr;
+  grid-template-columns: 1fr 72px 72px 1fr;
   min-height: 68px;
 }
 
@@ -282,6 +282,12 @@ p {
   letter-spacing: 0;
 }
 
+#fireBtn {
+  color: var(--accent);
+  font-size: 0.86rem;
+  letter-spacing: 0;
+}
+
 @media (min-width: 780px) {
   body {
     padding: 24px;
@@ -294,7 +300,7 @@ p {
 
 @media (max-width: 390px) {
   .stats span {
-    min-width: 64px;
+    min-width: 58px;
     padding-inline: 6px;
   }
 
